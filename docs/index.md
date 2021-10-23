@@ -1,37 +1,42 @@
-## Welcome to GitHub Pages
+<div dir="rtl">
+پروژه ساعت نجومی و نقشه آسمان
 
-You can use the [editor on GitHub](https://github.com/hamidrouhi/Digital-sidereal-time-clock/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+ پروژه زمان و مکانی که ستارگان در آسمان شب حضور دارند را اطلاع می‌دهد.
 
-### Markdown
+زمین هر ۲۴ ساعت یک‌بار به دور خود گردش می‌کند که باعث دیده شدن تمام ستاره‌های آسمان در یک شبانه‌روز می‌شود.
+* البته در ظاهر ستارگان آسمان به دور زمین می‌چرخند.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+در نقشه‌های آسمانی که هم‌اکنون در دسترس هستن توسط یافتن فصل و روز مورد نظر از سال امکان نمایش ستاره‌ها و صورت‌فلکی‌هایی که قابل مشاهده هستند را می‌دهند.
 
-```markdown
-Syntax highlighted code block
+در این پروژه از نقشه آسمان بصورت دو بُعدی استفاده شده که قبلا اکثر دوستان و علاقه‌مندان به نجوم حتما این نقشه را در کتاب نجوم به زبان ساده مایر دگانی ملاحضه کردند.
+البته که مجبور به طراحی مجدد نقشه و تهیه فایل وکتور این نقشه شدیم.
+برای داشتن فایل نقشه (با کیفیتی بهتر از کتاب) می‌تونین از پروژه ما دانلودش کنین.
+در این پروژه از فریم پلکسی شفاف که نقشه آسمان درش حک سده استفاده می‌کنیم.
+همینطور از یک بُرد آردوینو که برنامه‌نویسیش می‌کنیم (در ادامه بیشتر توضیح می‌دیم) تا بتونیم ستاره‌های بالای سر هر لحظه رو روی نقشه با LED هایی که روشن میشه ببینیم.
 
-# Header 1
-## Header 2
-### Header 3
+روش استفاده از نقشه:
 
-- Bulleted
-- List
+خورشید در مسیر دایرةالبروج حرکت می‌کند و هر دو خانه را طی یک ماه طی می‌کند.
+ماه هم با اختلاف °۵ در همین مسیر حرکت می‌کند و هر ۲۷ روز یک‌بار تمام مسیر را می‌پیماید.
+در روی نقشه ستارگان آسمان، اعتدال بهاری را در دو طرف نقشه داریم که در صورت گرد شدن یکی خواهد شد. در وسط اعتدال پاییزی داریم.
+با استفاده از دو فرمول زیر می‌توان ساعت و دقیقه بُعد را بیابیم.
 
-1. Numbered
-2. List
+ساعت بُعد= س + (۷ - م) ۲
+دقیقه بُعد= خ + د + (۲-ر) ۴
 
-**Bold** and _Italic_ and `Code` text
+س: ساعت
+م: ماه
+د: دقیقه
+ر: روز
+خ: اختلاف ساعت ظهر محل تا تهران
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+عرض جغرافیایی تهران حدودا : °۳۵ است.
+بر روی نقشه از خط افقی ° ۳۵ شمالی خطی رسم می‌کنیم.
+ستارگان بالایی دائم‌الطلوع و پایینی‌ها دارای طلوع و غروب هستند.
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/hamidrouhi/Digital-sidereal-time-clock/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+محل عبور و مرور سیارات و ماه، حول و هوش دایرةالبروج است.
+ماه می‌تواند °۵ از دایرةالبروج بالا و پایین برود.
+  
+  </div>
