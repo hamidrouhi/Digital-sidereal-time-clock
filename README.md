@@ -1,3 +1,3 @@
-# Digital-sidereal-time-clock
+##### Digital-sidereal-time-clock
 Clock for visualize sidereal time
-comming sooon..
+comming sooon.. new
